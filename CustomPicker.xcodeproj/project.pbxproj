@@ -33,14 +33,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E2FE832A2A4C672E00419309 = {
+		E20384992A4C713F00C42B00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE833F2A4C673100419309 /* Assets.xcassets */,
+				E2FE83412A4C673100419309 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E28311892A4C70D600152019 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				E2FE83362A4C672F00419309 /* AppDelegate.swift */,
 				E2FE833A2A4C672F00419309 /* ViewController.swift */,
-				E2FE833F2A4C673100419309 /* Assets.xcassets */,
-				E2FE83412A4C673100419309 /* LaunchScreen.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E2FE832A2A4C672E00419309 = {
+			isa = PBXGroup;
+			children = (
 				E2FE83442A4C673100419309 /* Info.plist */,
+				E20384992A4C713F00C42B00 /* Resources */,
+				E28311892A4C70D600152019 /* Sources */,
 				E2FE83342A4C672F00419309 /* Products */,
 			);
 			sourceTree = "<group>";
